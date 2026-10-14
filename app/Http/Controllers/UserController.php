@@ -46,8 +46,6 @@ class UserController extends Controller
     return redirect()->route('admin.users.index');
    }
 
-   class UserController extends Controller
-{
     // Exibe a página/formulário de recuperação de senha
     public function showLinkRequestForm()
     {
@@ -71,7 +69,6 @@ class UserController extends Controller
 
         return redirect()->route('login')->with('success', 'Senha alterada com sucesso!');
     }
-}
    
 
 }
